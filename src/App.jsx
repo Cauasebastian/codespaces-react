@@ -1,9 +1,14 @@
+// components 
+import FirstComponent from './components/FirstComponent';
+
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FirstComponent/>
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
