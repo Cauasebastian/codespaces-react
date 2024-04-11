@@ -2,6 +2,7 @@
 import FirstComponent from './components/FirstComponent';
 import templateExpressions from './components/templateExpressions';
 import Events from './components/Events';
+import Challenge from './components/Challenge';
 import './App.css';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
               >
                 Learn React
               </a>
-           
+            {Challenge()}
             </p>
           </header>
         </div>
